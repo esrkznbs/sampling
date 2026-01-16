@@ -40,30 +40,45 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `#1`
 
-Describe the purpose of your survey:
-```
-write your answer here...
-```
+Describe the purpose of your survey: The purpose of this survey is to identify the primary drivers of high turnover among entry and lower level employees at the company. The survey will measure satisfaction, perceived support, workload, compensation fairness, and growth opportunities in order to determine which workplace factors most strongly predict intent to leave. Results will be used to design targeted retention interventions and improve employee satisfaction.
+
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+Target population:
+All entry and lower level employees at the company (across all departments), including employees who resigned within the last 6 months.
+
+Sampling frame:
+(1) The company HRIS roster for current entry and lower level employees and (2) HR records of employees in those roles who exited within the last 6 months, including contact emails where available.
+
+Sampling units:
+Individual employees.
+
+Observational units:
+Individual survey responses (each employee’s answers).
+
+Overall sampling strategy:
+Stratified random sampling. Employees will be stratified by department/job family (e.g., Engineering, Sales, Support, Operations) and employment status (current vs. recently exited). Within each stratum, a simple random sample will be drawn. This strategy is justified because turnover may vary across departments and roles, and stratification ensures adequate representation of groups with potentially different working conditions and attrition patterns.
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. Overall, how satisfied are you with your job at this company?
+   (Very satisfied / Satisfied / Neutral / Dissatisfied / Very dissatisfied)
+2. How likely are you to leave the company within the next 6 months?
+   (Very unlikely / Unlikely / Unsure / Likely / Very likely)
+3. Which factors contribute most to your dissatisfaction or intent to leave? (Select up to 3)
+   (Compensation / Workload / Work-life balance / Management support / Career growth / Workplace culture / Job security / Flexibility / Benefits / Other: ____)
+4. How manageable is your workload most weeks?
+   (Very manageable / Somewhat manageable / Neutral / Somewhat unmanageable / Very unmanageable)
+5. To what extent do you agree with the statement: “I feel supported by my manager.”
+   (Strongly agree / Agree / Neutral / Disagree / Strongly disagree)
+6. Do you feel there are clear opportunities for professional development or promotion at this company?
+   (Yes / Somewhat / No / Not sure)
+7. How fair do you believe your compensation is relative to your responsibilities and comparable roles?
+   (Very fair / Fair / Neutral / Unfair / Very unfair)
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +86,52 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type:
+Cross-sectional probability sample survey using stratification. 
+
+2. Sample size:
+Approximately 50,000 sample units were drawn (households/telephone-number groups), with one eligible respondent selected per household.
+
+3. Target population:
+Individuals aged 15 and over living in private households in the 10 Canadian provinces. Excludes the territories and full-time residents of institutions.
+
+4. Sampling frame:
+Statistics Canada sampling frame combining landline and cell phone numbers (linked to an address when possible) derived from the dwelling frame and administrative sources. Sample records consisted of a phone number linked to an address, or a phone number alone where linkage was not possible.
+
+5. Survey mode(s):
+Mixed-mode. Primarily telephone interviews, with an online response option introduced in 2018.
+
+6. Timeline:
+Data collection occurred in 2018. Public documentation for the PUMF was released later (documentation and user guide published January 26, 2021).
+
+7. Response rate:
+Documentation reports relatively low response rates (around ~40%, depending on sample components and collection).
+
+8. Weights:
+Survey weights were produced to account for unequal probabilities of selection and nonresponse, and to allow representative population-level estimation. Weights are provided with the public use microdata file (PUMF).
+
+9. Data processing:
+Processing included standard survey steps such as editing, coding, and construction of derived variables. The PUMF user guide describes estimation procedures and the appropriate use of weights.
+
+10. Cleaning, imputation, etc:
+Statistics Canada applied systematic edits and cleaning procedures. Missing or inconsistent data were handled through established processing rules, including derived variables and treatment of incomplete responses.
+
+11. Sources of error:
+Key error sources include:
+- Coverage error (limitations related to telephone frame coverage and linkage to addresses)
+- Sampling error (variance due to sampling rather than full population enumeration)
+- Nonresponse error (notable due to lower response rates)
+- Measurement error (recall error when reporting donations/volunteering; social desirability bias)
+- Mode effects (differences in responses between telephone and online collection)
+
+12. Limitations, known biases, etc:
+Major limitations include lower response rates (risk of nonresponse bias), possible coverage limitations for households not reachable by the telephone frame, and measurement bias from self-reported behaviour. The 2018 redesign (including introducing online mode) also limits comparability to earlier cycles due to methodology/mode changes.
+
+13. Link to documentation and any additional sources used:
+- Statistics Canada — General Social Survey (GSS), Cycle 33: Giving, Volunteering and Participating (2018): https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=1256802
+- Public Use Microdata File (PUMF) documentation / user guide (Cycle 33): https://www150.statcan.gc.ca/n1/en/catalogue/89M0026X
+- Statistics Canada Daily release / survey information (GSS GVP 2018): https://www150.statcan.gc.ca/n1/daily-quotidien/210126/dq210126d-eng.htm
+
 ```
 
 ## Rubric
